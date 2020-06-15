@@ -1,0 +1,35 @@
+{
+  "name": "template-plugin",
+  "version": "1.0.0",
+  "description": "a template to write plugin  with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipu11qiao/imgView.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipu11qiao/imgView/issues"
+  },
+  "homepage": "https://github.com/pipu11qiao/imgView#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "less-plugin-autoprefix": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-stream": "^5.2.1"
+  }
+}
