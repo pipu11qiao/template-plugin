@@ -16,7 +16,7 @@ function server(cb) {
             baseDir: './'
         }
     });
-    watch([`${basePath.dest}/**/*.js`, `$${basePath.dest}/**/*.css`], {ignoreInitial: false}, function (cb) {
+    watch([`${basePath.dest}/**/*.js`, `$${basePath.dest}/**/*.css`,'demo/*.*',], {ignoreInitial: false}, function (cb) {
         reload()
         cb();
     });
